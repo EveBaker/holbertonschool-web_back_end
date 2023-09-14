@@ -12,4 +12,4 @@ const createInt9TypedArray = (length, position, value) => {
     view.setInt8(position, value);
     return view;
 }
-export default createInt9TypedArray
+export default createInt8TypedArray
