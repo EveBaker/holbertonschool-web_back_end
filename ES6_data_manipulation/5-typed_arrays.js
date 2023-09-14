@@ -1,4 +1,4 @@
-function createInt9TypedArray(length, position, value) {
+const createInt9TypedArray(length, position, value) {
     if (position < 0 || position >= length) {
         throw new Error("Position outside range");
     }
