@@ -2,7 +2,7 @@ import { uploadPhoto, createUser } from './utils';
 
 function handleProfileSignup() {
 
-  Promise.all(promises)
+  return Promise.all([uploadPhoto(), createUser()])
     .then((results) => {
       console.log(`${photo.body} ${user.firstName} ${user.lastName}`);
     })
